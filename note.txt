@@ -1,0 +1,8 @@
+rails new sample-rails
+
+bundle install --without production
+//This arranges to skip the pg gem for PostgreSQL in development and use SQLite for development and testing.
+
+bundle update
+
+
